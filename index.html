@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Link Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container glass">
+        <h2>🔍 Spam Link Detector</h2>
+
+        <input id="urlInput" placeholder="Enter a URL to check...">
+
+        <button class="btn" onclick="checkLink()">Check Link</button>
+
+        <!-- TRUSTABLE RESULT CARD -->
+        <div id="result" class="result-card" style="display:none;">
+            <div id="statusBadge" class="badge"></div>
+            <div id="summaryText" class="summary"></div>
+            <ul id="issueList"></ul>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

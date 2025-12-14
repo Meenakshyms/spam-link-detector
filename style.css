@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+}
+
+/* Container */
+.container {
+    max-width: 450px;
+    margin: 120px auto;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.glass {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    background: rgba(255,255,255,0.15);
+    color: white;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Result Card */
+.result-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+/* Badge */
+.badge {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.safeBadge {
+    background: rgba(0,255,100,0.15);
+    color: #00ff99;
+}
+
+.dangerBadge {
+    background: rgba(255,0,0,0.20);
+    color: #ff4444;
+}
+
+/* Summary */
+.summary {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Issues List */
+#issueList {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+#issueList li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    opacity: 0.9;
+}
